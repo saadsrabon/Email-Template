@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Your Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333333;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .header {
+            background-color: #001c71;
+            padding: 20px;
+            text-align: center;
+        }
+        .header img {
+            max-width: 150px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h1 {
+            font-size: 24px;
+            color: #001c71;
+            text-align: center;
+        }
+        .content p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .verify-button {
+            display: block;
+            width: fit-content;
+            margin: 20px 0;
+            padding: 10px ;
+            background-color: #1976d2;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .verify-button2 {
+            display: block;
+            width: fit-content;
+            text-decoration: none;
+            padding: 3px 10px;
+            background-color: #1976d2;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 8px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .footer {
+            background: linear-gradient(rgba(21, 50, 100, 1), rgba(36, 79, 151, 1));
+            color: #ffffff;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .footer-column {
+            flex: 1 1 calc(25% - 10px);
+            margin:10px;
+            min-width: 120px;
+        }
+        .footer-column img {
+            max-width: 100px;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .footer-column p {
+            font-size: 14px;
+            line-height: 1.5;
+            margin: 5px 0;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .footer-column a {
+            font-size: 12px;
+            line-height: 1.5;
+            margin: 5px 0;
+            color: #ffffffba;
+            text-decoration: none;
+            display: block;
+        }
+        .footer-column a:hover {
+            text-decoration: underline;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        .social-icons img {
+            width: 24px;
+            height: 24px;
+            margin: 0 5px;
+        }
+        .footer-bottom {
+            background: linear-gradient(rgba(21, 50, 100, 1), rgba(36, 79, 151, 1));
+            text-align: center;
+            
+            font-size: 14px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            padding:0px 20px; ;
+
+        }
+        .footer-bottom .text {
+            color: #ffffffa5;
+            padding: 10px 0;
+        }
+        .footer-bottom .social-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0;
+        }
+        .email-box {
+            position: relative;
+          
+        }
+        .logo-part{
+            width:  400px !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="header">
+            <img src="https://s3.us-west-1.amazonaws.com/www.prepcirca.com/assets/static/landing/prep-circa-logo-white.png" alt="Prep Circa Logo">
+        </div>
+        <div class="content">
+            <h1>Confirm your email address</h1>
+            <p>Hi User!</p>
+            <p>Welcome to Prep Circa! We're thrilled to have you on board. To activate your account and gain access to our platform, please verify your email address by clicking the link below:</p>
+            <a href="#" class="verify-button">Verify your email</a>
+            <p>If the above link isn't clickable, simply copy and paste this URL into your web browser:</p>
+            <p><strong>[Insert Verification Link]</strong></p>
+            <p>This step is essential to keep your account secure and ensure you have uninterrupted access to Prep Circa's tools and resources.</p>
+            <p>If you didn't create an account with us, please disregard this message. Need help? We're just an email away at <a href="mailto:support@prepcirca.com">support@prepcirca.com</a>.</p>
+            <p>Thank you for joining Prep Circa!</p>
+            <p>Best regards,<br><span style="font-size: 25px; font-weight: 600; color: #001c71;">Prep Circa Team</span></p>
+        </div>
+        <div class="footer">
+            <!-- Logo Column -->
+            <div class="footer-column logo-part">
+                <img src="https://s3.us-west-1.amazonaws.com/www.prepcirca.com/assets/static/landing/prep-circa-logo-white.png" alt="Prep Circa Logo">
+               
+                
+                <div class="email-box"><input type="email" placeholder="Enter your email" style="padding: 10px 2px; width: 100%; border: 1px solid white; border-radius: 25px; background:transparent"> <a href="#" class="verify-button2">Subscribe</a> </div>
+            </div>
+            <!-- Contact Column -->
+            
+            <!-- Menu Column -->
+            <div class="footer-column">
+                <p><strong>Menu</strong></p>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Features</a>
+                <a href="#">Resources</a>
+                <a href="#">Community</a>
+                <a href="#">Contact</a>
+            </div>
+            <!-- Others Column -->
+            <div class="footer-column">
+                <p><strong>Others</strong></p>
+                <a href="#">Integrity Code</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookies</a>
+                <a href="#">Terms</a>
+            </div>
+            <div class="footer-column">
+                <p><strong>Contact</strong></p>
+                <a>109 E. 17th St.<br>Suite #6169<br>Cheyenne, Wyoming 82001</a>
+                <p><a href="tel:+3074598080">(307) 459-8080</a></p>
+                <p><a href="mailto:contact@prepcirca.com">contact@prepcirca.com</a></p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+           <div class="text"> &copy; 2024 Prep Circa, LLC. All Rights Reserved.</div> 
+            <div class="social-icons">
+                <a href="#"><img src="https://via.placeholder.com/24" alt="Facebook"></a>
+                <a href="#"><img src="https://via.placeholder.com/24" alt="Twitter"></a>
+                <a href="#"><img src="" alt="Instagram"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
